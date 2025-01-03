@@ -14,16 +14,16 @@ class OnboardingView extends StatelessWidget {
         children: [
           OnboardingSlide(
               image: 'assets/images/login.png',
-              title: "Welcome!",
-              description: "Discover amazing products."),
+              title: "Selamat datang di gojek!",
+              description: "Aplikasi yang bikin hidupmu lebih nyaman. Siap bantuin  semua kebutuhan mu, kapanpun, dan di manapun"),
           OnboardingSlide(
               image: 'assets/images/boarding2.png',
-              title: "Easy to Use",
-              description: "Navigate effortlessly."),
+              title: "Transportasi & logistik",
+              description: "Antarin kamu jalan atau ambilin barang lebih gampang tinggal  ngeklik doang~"),
           OnboardingSlide(
               image: 'assets/images/boarding3.png',
-              title: "Get Started",
-              description: "Join us today."),
+              title: "Pesan makan & belanja",
+              description: "Lagi ngidam sesuatu? Gojek beliin gak pakai lama."),
         ],
       ),
       bottomNavigationBar: Padding(

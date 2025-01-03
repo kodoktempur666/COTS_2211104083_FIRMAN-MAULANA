@@ -17,8 +17,8 @@ class _MainPageState extends State<MainPage> {
 
   final List<Widget> _pages = [
     HomeView(),
-    PromoPage(),
-    PesananPage(),
+    PromoView(),
+    OrderView(),
   ];
 
   void _onItemTapped(int index) {
